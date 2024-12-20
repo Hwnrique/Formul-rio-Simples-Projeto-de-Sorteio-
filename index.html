@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Crie sua Conta</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="titles">
+                <h1>Cadastre os seus dados para <br>
+                    concorrer a uma skin</h1>
+                <h2>É por tempo limitado!</h2>
+            </div>
+        </div>
+        <form>
+        <div class="form-container">
+            <div class="form-body">
+                    <div class="yourName">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" placeholder="Primeiro Nome" required>
+                    <label for="secname">Sobrenome:</label>
+                    <input type="text" name="secname" placeholder="Último Nome" required>
+                </div>
+                    <div class="yourEmail">
+                     <label for="email">E-mail:</label>
+                     <input type="email" name="email" placeholder="Ex: sorteiodeskin@gmail.com" required>
+                    </div>
+                    <div class="yourNumber">
+                     <label for="number">Telefone:</label>
+                     <input type="number" name="number" placeholder="Ex: 71 9 12345678" required>
+                    </div>
+                    <div class="yourSkin">
+                        <label for="skin">Selecione sua skin:</label>
+                        <select name="skin" required>
+                            <option value="">Selecione</option>
+                            <option value="yasuo">Yasuo: Florescer Espiritual</option>
+                            <option value="jinx">Jinx: Inimiga de Arcane</option>
+                            <option value="ekko">Ekko: True Damage</option>
+                            <option value="ahri">Ahri: Florescer Espiritual</option>
+                            <option value="gwen">Gwen: Soul Fighter</option>
+                        </select>
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                    </div>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
